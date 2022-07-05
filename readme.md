@@ -38,3 +38,26 @@ VALUES
   R -> SELECT
   U -> UPDATE
   D -> DELETE FROM
+
+  UPDATE candidates
+  SET industry_connected = 1
+  WHERE id = 3
+
+  DELETE FROM candidates
+  WHERE first_name="Montague";
+
+  SHOW DATABASES
+
+  **Initialize the Node.js**
+
+  npm init --y
+
+**install needed packages**
+  npm install express mysql2
+  npm install jest --save-dev
+
+  **change test script to jest in package.json**
+  "scripts": {
+      "test":"jest"
+      "start": "node server.js"
+},
