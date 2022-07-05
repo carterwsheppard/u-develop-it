@@ -61,3 +61,6 @@ VALUES
       "test":"jest"
       "start": "node server.js"
 },
+
+**create server file**
+touch server.js
