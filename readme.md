@@ -29,6 +29,7 @@ VALUES
   ('Unica', 'Zurn', 1);
 
   DROP DATABASE election;
+  DROP TABLE candidates;
 
   mysql> source db/db.sql;
   mysql> source db/schema.sql;
