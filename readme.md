@@ -32,4 +32,9 @@ VALUES
 
   mysql> source db/db.sql;
   mysql> source db/schema.sql;
-  
+
+
+  C -> INSERT
+  R -> SELECT
+  U -> UPDATE
+  D -> DELETE FROM
